@@ -22,6 +22,7 @@ plot_octets(tbl_in)
 
 ```
 
+
 ### Generating animated GIF ###
 
 ```R
@@ -32,3 +33,6 @@ plot_octets(tbl_in2) + ggtitle("Dataset 2") + ggsave("2.png")
 ```bash
 convert -delay 100 -loop 0 *.png animation.gif
 ```
+
+![Animation](img/animation.gif)
+
